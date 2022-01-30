@@ -1,0 +1,26 @@
+Question 6a 
+
+Write a program named question6a.cpp that will calculate and print pay slips. User inputs are the name of the employee, the number of hours worked and the hourly pay rate. 
+You have to declare three functions. 
+
+a) one for input; 
+
+b) one to calculate the employee’s pay; 
+
+c) one to print the payslip. 
+
+
+The input function has to input the name of the employee, the number of hours worked and the hourly pay rate into the variables theEmployee, theHoursWorked, and thePayRate. 
+The variable employee is a string and the other two variables are of type float. As the values of theEmployee, theHoursWorked, and thePayRate will be changed in this function, reference parameters need to be used. 
+
+ 
+The calculation function will receive two parameters that represent the number of hours worked and the hourly pay rate, do the calculation and return the pay for the employee. 
+An employee, who has worked more than 40 hours, is paid 1.5 times the hourly pay rate for each hour of overtime.
+As the parameters are not changed in the function, they should be value parameters. The function should return a float value which represents the pay. 
+
+
+The output function has to display the name of the employee, the number of hours worked, the number of overtime hours and the hourly pay rate entered by the user as well as the employee’s pay. 
+
+
+The main function includes a for loop that allows the user to repeat the calculation of a pay slip for five employees. 
+We give the main function below. You must submit the three functions you have developed as well as output for repeating the loop five times with the input data. 

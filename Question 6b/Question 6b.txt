@@ -1,0 +1,13 @@
+Question 6b 
+
+NuMetro has a special offer on movies for all members of the public but special discounts for students and pensioners.  
+If pensioners or students buy a movie ticket, they receive 10% if they buy a movie and popcorns, they receive 20% discount.  
+100 Other customers only receive a discount when they buy a movie ticket and popcorn; there is no discount for just a movie ticket alone.  
+
+
+Write a program named question6b.cpp that will consist of two functions. The program must prompt the user for type of customer (‘p’ for pensioner, ‘s’ for student, ‘o’ for other). 
+It must then call the relevant function according to that entry. 
+
+The first function must receive the customer type and calculates discount for pensioners and students.  
+
+The second function calculates the discount for customers that are not pensioners or students. 

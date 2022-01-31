@@ -1,0 +1,9 @@
+Question 6c 
+
+Write a program named question6c.cpp that demonstrates the use of the following functions.  
+A C++ function named getName() prompts the user for two string values; first name and last name and return a combination of the two as one value.  
+
+The second function getHours() calculates employee’s weekly pay, it must receive one argument, fullName, a string variable and a float value for the rate. 
+It must then prompt the user for hours worked for each day of the week, i.e., Monday – Friday and calculates the weekly pay.  
+
+Employees who have worked more than 40 hours that week will receive a bonus of 10% and those who have worked less than 40 hours will receive 10% less pay for that week. 

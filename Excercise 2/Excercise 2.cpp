@@ -8,10 +8,10 @@ void sum(int& result) {
     cout << "Enter Two Numbers: \n";
     cin >> a;
     cin >> b;
-    cout << endl;
+    
 
     result = a + b;
-    cout << "Sum of " << a << " and " << b << " is: " << result << endl;
+    cout << "\nSum of " << a << " and " << b << " is: " << result << endl;
 
 }
 
@@ -21,3 +21,4 @@ int main() {
 
     cin.get();
 }
+

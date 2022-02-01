@@ -7,16 +7,13 @@ int main() {
     cout << "What Arithmetic Operation do you want to perform:\n";
     cout << "Press: (1) for Addition,(2) for Subtraction,(3) for Multiplication,(4) for Division, (5) for Modulo, (6) for Power \n";
     cin >> operation;
-    cout << endl;
 
     int a, b;
-    cout << "Enter Two Numbers: \n";
+    cout << "\nEnter Two Numbers: \n";
     cin >> a;
     cin >> b;
-    cout << endl;
 
-    cout << "--------------------------------------------" << endl;
-
+    cout << "\n--------------------------------------------" << endl;
     switch (operation)
 
     {
@@ -48,3 +45,4 @@ int main() {
 
     cin.get();
 }
+

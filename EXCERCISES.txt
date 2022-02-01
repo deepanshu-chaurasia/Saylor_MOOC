@@ -18,11 +18,11 @@ Exercise 2:
 Basically, the same as exercise 1, but this time, the function that adds the numbers should be void, 
 and takes a third, pass by reference parameter; then puts the sum in that. 
  
-
+ 
 Exercise 3:
 
 Write a recursive function that finds the #n integer of the Fibonacci sequence. 
-Then build a minimal program to test it. For reference see Wikipedia:Fibonacci number. 
+Then build a minimal program to test it. For reference see Wikipedia:Fibonacci number(https://en.wikipedia.org/wiki/Fibonacci_number). 
 
 For any possible natural number "n", the following applies  
 
@@ -41,3 +41,7 @@ Exercise 5:
 Create a calculator that takes a number, a basic math operator (+, -, *, /, ^), and a second number all from user input, 
 and have it print the result of the mathematical operation. 
 The mathematical operations should be wrapped inside of functions. 
+
+
+
+

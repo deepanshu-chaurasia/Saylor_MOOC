@@ -1,0 +1,43 @@
+--- Exercises ---
+ 
+Exercise 1:
+
+Write a program that performs arithmetic division.  
+
+The program will use two integers, a and b (obtained by the user) and will perform the division a/b, 
+store the result in another integer c and show the result of the division using cout.  
+
+In a similar way, extend the program to add, subtract, multiply, do modulo and power using integers a and b.  
+
+Modify your program so that when it starts, it asks the user which type of calculation it should do, 
+then asks for the 2 integers, then runs the user selected calculation and outputs the result in a user-friendly formatted manner. 
+
+
+Exercise 2:
+
+Basically, the same as exercise 1, but this time, the function that adds the numbers should be void, 
+and takes a third, pass by reference parameter; then puts the sum in that. 
+ 
+
+Exercise 3:
+
+Write a recursive function that finds the #n integer of the Fibonacci sequence. 
+Then build a minimal program to test it. For reference see Wikipedia:Fibonacci number. 
+
+For any possible natural number "n", the following applies  
+
+fib(n+2) = fib(n+1) + fib(n). Also, the following are predefined fib(0) = 0 fib(1)=1 
+
+ 
+Exercise 4:
+
+Basically, the same as exercise 3, although this time you mustn't use recursion. 
+For extra exercise, give a big number (like 1000000) to both exercise 3 and 4 solutions and compare the execution times. 
+Ponder on the results.
+
+
+Exercise 5:
+
+Create a calculator that takes a number, a basic math operator (+, -, *, /, ^), and a second number all from user input, 
+and have it print the result of the mathematical operation. 
+The mathematical operations should be wrapped inside of functions. 

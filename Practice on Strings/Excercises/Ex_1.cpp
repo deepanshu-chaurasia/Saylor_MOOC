@@ -5,7 +5,8 @@ using namespace std;
 
 int main() {
 
-    string nam = "My name is deepanshu chaurasia";
+    string nam;
+    getline(cin, nam);
     int n = 1;
 
     for (int i = 0; i < nam.size(); i++) {
@@ -17,4 +18,3 @@ int main() {
     cout << "Number of words: " << n << endl;
       cin.get();
 }
-

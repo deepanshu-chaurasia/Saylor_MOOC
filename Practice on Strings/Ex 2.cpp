@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    cout << "Check the length of two strings:" << endl;
+    cout << "Compare the two strings:" << endl;
     cout << "------------------------------------" << endl;
 
     char nam[20];

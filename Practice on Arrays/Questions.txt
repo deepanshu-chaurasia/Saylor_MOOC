@@ -1,3 +1,12 @@
+
 Assignment 1:
 Write a program to read five values into an array and print them out in reverse order (Use two independent for loops).
 
+************************************************************************************************************************
+
+Assignment 2:
+An array contains the elements shown below. The first two elements have been sorted using a selection sort. What would be the value of the elements in the array after three more passes of the selection sort algorithm?
+
+1) 7 8 26 44 13 23 98 57
+
+*******************************************************************************************************

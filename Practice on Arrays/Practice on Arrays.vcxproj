@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cbdc3764-f7dd-4606-b56a-64e9a601b563}</ProjectGuid>
-    <RootNamespace>PracticeonStrings</RootNamespace>
+    <ProjectGuid>{b1943e74-5e2e-4dea-b0f4-b4b9b19ee9b5}</ProjectGuid>
+    <RootNamespace>PracticeonArrays</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,10 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="Text.txt" />
+    <Text Include="Questions.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ex 4.cpp" />
+    <ClCompile Include="Assignment_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

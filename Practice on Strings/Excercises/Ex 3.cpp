@@ -3,8 +3,9 @@
 using namespace std;
 
 int main() {
-   string str;
-   getline(cin, str);
+    string str;
+    cout << "Input the string; ";
+    getline(cin, str);
     int i, alp, dgt, spch;
     i = 0;
     alp = 0;
@@ -12,7 +13,7 @@ int main() {
     spch = 0;
     cout << str;
 
-    for (i = 0; i < str.size();i++) {
+    for (i = 0; i < str.size(); i++) {
         if (str[i] >= 'a' && str[i] <= 'z' || str[i] >= 'A' && str[i] <= 'Z') {
             alp++;
         }

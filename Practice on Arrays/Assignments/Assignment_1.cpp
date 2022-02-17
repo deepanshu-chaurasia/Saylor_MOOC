@@ -7,15 +7,15 @@ int main() {
 
     cout << "Enter number of elements in array: ";
     cin >> n;
-    
-   int* arr = new int[n];
-   cout << "Enter " << n << " elemets :" << endl;
+
+    int* arr = new int[n];
+    cout << "Enter " << n << " elements :" << endl;
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    cout << endl;
+    cout << "\nReverse of the array:" << endl;
 
-    for (int i = n-1 ; i >= 0; i--) {
+    for (int i = n - 1; i >= 0; i--) {
         cout << arr[i] << endl;
     }
 
@@ -23,4 +23,5 @@ int main() {
 
     return 0;
 }
+
 
